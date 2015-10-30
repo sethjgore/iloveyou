@@ -14,6 +14,8 @@ body{
   align-items: center;
   -webkit-align-items: center;
   background-image: linear-gradient(-134deg, #3023AE 0%, #A15ACD 45%, #C86DD7 100%);
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
 
 [box="fill"]{
@@ -26,22 +28,28 @@ body{
   font-family: roboto;
   font-weight: 300;
   text-align: center;
+  line-height: 1.618em;
 }
 
 
 
-[text="medium"]{
+[text~="medium"]{
   font-size: 6vmin;
   font-family: roboto;
   font-weight: 300;
   text-align: center;
 }
 
-
-[text="small"]{
+[text~="small"]{
   font-size: 3vmin;
   font-family: roboto;
   font-weight: 300;
   text-align: center;
 }
+
+
+[text~="left"]{
+  text-align: left;
+}
+
 
